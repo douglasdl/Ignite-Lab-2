@@ -39,6 +39,16 @@ Clone the GraphCMS project [here](https://rseat.in/lab-graphcms).
 npm i @apollo/client graphql
 ```
 
+## Install Phosphor Icons dependencies
+```sh
+npm i phosphor-react
+```
+
+## Install Date FNS dependencies
+```sh
+npm i date-fns
+```
+
 <p align="center">
     <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -89,15 +99,11 @@ This project was developped using the following technologies:
 
 🛠 Utilities
 
-Sample Images
-- [Unsplash](https://unsplash.com/s/photos/hairdresser)
-- [Random User Generator](https://randomuser.me/)
+SVG
+- [SVG to JSX Converter](https://svg2jsx.com)
 
 Icons
-- [IcoMoon App](https://icomoon.io/app/#/select)
-- [FlatIcon](https://www.flaticon.com/br/)
-- [IconFinder](https://www.iconfinder.com/)
-- [ReactIcons](https://react-icons.github.io/react-icons/icons?name=fi)
+- [Phosphor Icons](https://phosphoricons.com/)
 
 ## 📐 Project
 
