@@ -49,6 +49,12 @@ npm i phosphor-react
 npm i date-fns
 ```
 
+## Install Vime JS dependencies
+```sh
+npm i @vime/core @vime/react --force
+```
+
+
 <p align="center">
     <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -94,8 +100,8 @@ This project was developped using the following technologies:
 
 📚 Libraries
 - [Google Fonts](https://fonts.google.com/)
-- [SwiperJS](https://swiperjs.com/) or [SwipeJS (Github)](https://github.com/nolimits4web/Swiper)
-- [Scroll Reveal](https://scrollrevealjs.org/)
+- [Vime JS](https://vimejs.com/)
+- [Video JS](https://videojs.com/)
 
 🛠 Utilities
 
