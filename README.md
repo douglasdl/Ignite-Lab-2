@@ -54,6 +54,11 @@ npm i date-fns
 npm i @vime/core @vime/react --force
 ```
 
+## Install React Router DOM dependencies
+```sh
+npm i react-router-dom
+```
+
 
 <p align="center">
     <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
