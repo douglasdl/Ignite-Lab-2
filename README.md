@@ -64,6 +64,17 @@ npm i react-router-dom
 npm i classnames
 ```
 
+## Install GraphQL Codegen as development dependencies
+```sh
+npm i graphql @graphql-codegen/cli -D
+```
+
+## Install GraphQL Code Generator plugins as development dependencies
+```sh
+npm i @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphql-codegen/typescript-react-apollo -D 
+```
+
+
 <p align="center">
     <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -112,6 +123,7 @@ This project was developped using the following technologies:
 - [Vime JS](https://vimejs.com/)
 - [Video JS](https://videojs.com/)
 - [React Hook Form](https://react-hook-form.com)
+- [GraphQL Code Generator](https://www.graphql-code-generator.com/)
 
 
 🛠 Utilities
@@ -121,6 +133,9 @@ SVG
 
 Icons
 - [Phosphor Icons](https://phosphoricons.com/)
+
+Deploy
+- [Vercel](https://vercel.com)
 
 ## 📐 Project
 
