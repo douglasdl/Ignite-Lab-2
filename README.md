@@ -59,6 +59,10 @@ npm i @vime/core @vime/react --force
 npm i react-router-dom
 ```
 
+## Install Classnames dependencies
+```sh
+npm i classnames
+```
 
 <p align="center">
     <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -107,6 +111,8 @@ This project was developped using the following technologies:
 - [Google Fonts](https://fonts.google.com/)
 - [Vime JS](https://vimejs.com/)
 - [Video JS](https://videojs.com/)
+- [React Hook Form](https://react-hook-form.com)
+
 
 🛠 Utilities
 
