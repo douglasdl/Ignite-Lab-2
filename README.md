@@ -91,8 +91,8 @@ npm i @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphq
 
 <br>
 <p align="center">
-    <a href="https://douglasdl.github.io/NLW6-Origin/">
-        <img alt="OriginSix" src="https://douglasdl.github.io/images/OriginSix.png" width="100%">
+    <a href="https://ignite-lab-2-kohl.vercel.app/">
+        <img alt="OriginSix" src="https://douglasdl.github.io/images/IgniteLab2.png" width="100%">
     </a>
 </p>
 
