@@ -3,7 +3,7 @@ import { isPast, format } from 'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
 import ja from 'date-fns/locale/ja'
 import { Link, useParams } from 'react-router-dom';
-import classNames from 'classNames';
+import classnames from 'classnames';
 
 interface LessonProps {
     title: string;
@@ -38,7 +38,7 @@ export function Lesson(props:LessonProps) {
                 `}
             > */}
             <div 
-                className={classNames('rounded border border-gray-500 p-4 mt-2 group-hover:border-green-500', {
+                className={classnames('rounded border border-gray-500 p-4 mt-2 group-hover:border-green-500', {
                     'bg-green-500': isActiveLesson,
                 })}
             >
@@ -46,7 +46,7 @@ export function Lesson(props:LessonProps) {
                     
                     {
                         isLessonAvailable ? (
-                            <span className={classNames('text-sm font-medium flex items-center gap-2', {
+                            <span className={classnames('text-sm font-medium flex items-center gap-2', {
                                 'text-white': isActiveLesson,
                                 'text-blue-500': !isActiveLesson,
                             })}>
@@ -61,14 +61,14 @@ export function Lesson(props:LessonProps) {
                         )
                     }
                     
-                    <span className={classNames('text-xs rounded py-[0.125rem] px-2 text-white border font-bold', {
+                    <span className={classnames('text-xs rounded py-[0.125rem] px-2 text-white border font-bold', {
                         'border-green-300': !isActiveLesson,
                         'border-white': isActiveLesson,
                     })}>
                         {props.type === 'live' ? 'AO VIVO' : 'AULA PRÁTICA' }
                     </span>
                 </header>
-                <strong className={classNames('mt-5 block', {
+                <strong className={classnames('mt-5 block', {
                     'text-white': isActiveLesson,
                     'text-gray-200': !isActiveLesson,
                 })}>
