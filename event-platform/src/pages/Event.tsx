@@ -12,8 +12,12 @@ export function Event() {
 			<Header />
 			<main className="flex flex-1">
 				{ slug 
-					? <Video lessonSlug={slug} /> 
-					: <div className="flex-1" /> 
+					? 
+					<Video lessonSlug={slug} /> 
+					: 
+					<div className="flex-1 flex justify-center text-6xl font-bold mt-[15rem]">
+						Escolha uma aula<br />na lista da direita:
+					</div> 
 				} 
 				<Sidebar/>
 			</main>
