@@ -1,80 +1,3 @@
-# Ignite-Lab-2
-Ignite Lab 2
-
-[Vite]()
-Create a new Vite project.
-```sh
-npm create vite@latest
-```
-- Give it a name.
-- Choose the framework you want to use: 'react'.
-- Choose 'react-ts' ro use TypeScript in your project.
-- Enter to the project folder.
-- Install the dependencies:
-```sh
-npm i
-```
-
-Execute the Project
-```sh
-npm run dev
-```
-
-Install the Development dependencies:
-```sh
-npm i tailwindcss postcss autoprefixer -D
-```
-
-Create the tailwindcss and postcss configuration files
-```sh
-npx tailwindcss init -p
-```
-- CMS: Content Management System. It is used to manage the content (frontend and backend) of the website.
-- Headless CMS: CMS without a frontend.
-
-Clone the GraphCMS project [here](https://rseat.in/lab-graphcms).
-
-## Install Apollo dependencies
-```sh
-npm i @apollo/client graphql
-```
-
-## Install Phosphor Icons dependencies
-```sh
-npm i phosphor-react
-```
-
-## Install Date FNS dependencies
-```sh
-npm i date-fns
-```
-
-## Install Vime JS dependencies
-```sh
-npm i @vime/core @vime/react --force
-```
-
-## Install React Router DOM dependencies
-```sh
-npm i react-router-dom
-```
-
-## Install Classnames dependencies
-```sh
-npm i classnames
-```
-
-## Install GraphQL Codegen as development dependencies
-```sh
-npm i graphql @graphql-codegen/cli -D
-```
-
-## Install GraphQL Code Generator plugins as development dependencies
-```sh
-npm i @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphql-codegen/typescript-react-apollo -D 
-```
-
-
 <p align="center">
     <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -92,7 +15,7 @@ npm i @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphq
 <br>
 <p align="center">
     <a href="https://ignite-lab-2-kohl.vercel.app/">
-        <img alt="OriginSix" src="https://douglasdl.github.io/images/IgniteLab2.png" width="100%">
+        <img alt="Ignite Lab 2" src="https://douglasdl.github.io/images/IgniteLab2.png" width="100%">
     </a>
 </p>
 
@@ -229,6 +152,83 @@ This project was done using [Visual Studio Code](https://code.visualstudio.com/)
     /*"eslint.autoFixOnSave": true, */
 }
 ```
+
+# Ignite-Lab-2
+Ignite Lab 2
+
+[Vite]()
+Create a new Vite project.
+```sh
+npm create vite@latest
+```
+- Give it a name.
+- Choose the framework you want to use: 'react'.
+- Choose 'react-ts' ro use TypeScript in your project.
+- Enter to the project folder.
+- Install the dependencies:
+```sh
+npm i
+```
+
+Execute the Project
+```sh
+npm run dev
+```
+
+Install the Development dependencies:
+```sh
+npm i tailwindcss postcss autoprefixer -D
+```
+
+Create the tailwindcss and postcss configuration files
+```sh
+npx tailwindcss init -p
+```
+- CMS: Content Management System. It is used to manage the content (frontend and backend) of the website.
+- Headless CMS: CMS without a frontend.
+
+Clone the GraphCMS project [here](https://rseat.in/lab-graphcms).
+
+## Install Apollo dependencies
+```sh
+npm i @apollo/client graphql
+```
+
+## Install Phosphor Icons dependencies
+```sh
+npm i phosphor-react
+```
+
+## Install Date FNS dependencies
+```sh
+npm i date-fns
+```
+
+## Install Vime JS dependencies
+```sh
+npm i @vime/core @vime/react --force
+```
+
+## Install React Router DOM dependencies
+```sh
+npm i react-router-dom
+```
+
+## Install Classnames dependencies
+```sh
+npm i classnames
+```
+
+## Install GraphQL Codegen as development dependencies
+```sh
+npm i graphql @graphql-codegen/cli -D
+```
+
+## Install GraphQL Code Generator plugins as development dependencies
+```sh
+npm i @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphql-codegen/typescript-react-apollo -D 
+```
+
 
 ## 📝 Licence
 
